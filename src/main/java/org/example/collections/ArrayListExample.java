@@ -17,6 +17,8 @@ public class ArrayListExample {
         cars.add("BMW");
         cars.add("Ford");
         cars.add("Mazda");
+        cars.set(3, "not Mazda");
+        cars.add(2, "between BMW and Ford");
         System.out.println(cars);
         System.out.println("The size of the arrayList is: " + cars.size());
         System.out.println("First car is: " + cars.getFirst());
