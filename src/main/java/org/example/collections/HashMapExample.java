@@ -13,10 +13,12 @@ public class HashMapExample {
         HashMap<String, String> capitalCities = new HashMap<>();
 
         // Add keys and values (Country, City)
-        capitalCities.put("England", "London");
+        capitalCities.put("England", "London1");
+        capitalCities.put("England", "London2");
         capitalCities.put("Germany", "Berlin");
         capitalCities.put("Norway", "Oslo");
         capitalCities.put("USA", "Washington DC");
+        //Note: key "England" is repeated so only one will be added (London2)
         System.out.println(capitalCities);
         System.out.println("the size of the hashMap is : " + capitalCities.size());
 
